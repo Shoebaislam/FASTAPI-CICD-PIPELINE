@@ -41,3 +41,9 @@ jobs:
       - name: Run MyPy Type Check
         run: |
           mypy app
+
+
+
+      - name: Build Docker Image
+        run: |
+          docker build -t fastapi-cicd-pipeline .
