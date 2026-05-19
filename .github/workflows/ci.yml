@@ -58,5 +58,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t sho94/fastapi-cicd-pipeline .
-          docker push sho94/fastapi-cicd-pipeline:latest
+          docker build -t shoebaislam/fastapi-cicd-pipeline .
+          docker push shoebaislam/fastapi-cicd-pipeline:latest
